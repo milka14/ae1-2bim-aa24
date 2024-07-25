@@ -16,7 +16,7 @@ def listar(request):
     # los registros de la entidad; el listado obtenido
     # se lo almacena en una variable llamada
     # equipos
-    equipos = Equipo.objects.all()
+    equipos = equipo_futbol.objects.all()
     # se obtiene el número de elementos de la lista
     numero_equipos = len(equipos)
     # en la variable tipo diccionario llamada informacion_template

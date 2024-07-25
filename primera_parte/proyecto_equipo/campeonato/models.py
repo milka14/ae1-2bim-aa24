@@ -1,6 +1,6 @@
 from django.db import models
 
-class Equipo(models.Model):
+class equipo_futbol(models.Model):
     nombre = models.CharField(max_length=30)
     siglas = models.CharField(max_length=30)
     seguidores = models.IntegerField()

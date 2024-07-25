@@ -1,5 +1,5 @@
 """
-ASGI config for proyecto_futbol project.
+ASGI config for proyecto_equipo project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'proyecto_futbol.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'proyecto_equipo.settings')
 
 application = get_asgi_application()
